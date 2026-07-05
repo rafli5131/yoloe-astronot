@@ -1,0 +1,23 @@
+{
+  "cameras": [
+    {
+      "camera_id": "CAM-MALANG-01",
+      "video_source": "video/contoh1.mp4"
+    },
+    {
+      "camera_id": "CAM-MALANG-02",
+      "video_source": "video/contoh2.mp4"
+    },
+    {
+      "camera_id": "CAM-MALANG-03",
+      "video_source": "video/contoh3.mp4"
+    }
+  ],
+  "confidence_threshold": 0.2,
+  "target_fps": 5,
+  "model_path": "yoloe-26s-seg-pf.pt",
+  "required_items": {
+    "helmet": ["helmet", "hat", "hard hat"],
+    "vest": ["vest", "jacket", "safety vest"]
+  }
+}

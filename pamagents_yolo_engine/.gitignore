@@ -1,0 +1,25 @@
+# Python environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Weights and Models
+*.pt
+*.engine
+weights/
+
+# Video files
+*.mp4
+*.mkv
+*.avi
+video/
+
+# OS generated files
+.DS_Store
+Thumbs.db
