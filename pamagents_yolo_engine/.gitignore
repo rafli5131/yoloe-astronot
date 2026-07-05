@@ -14,11 +14,6 @@ __pycache__/
 *.engine
 weights/
 
-# Video files
-*.mp4
-*.mkv
-*.avi
-video/
 
 # OS generated files
 .DS_Store
